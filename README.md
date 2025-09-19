@@ -3,17 +3,23 @@
 
 <div align="center">
 
-[![English](https://img.shields.io/badge/🇺🇸_English-Click%20Here-blue?style=for-the-badge)](#english) [![עברית](https://img.shields.io/badge/🇮🇱_עברית-לחץ%20כאן-green?style=for-the-badge)](#hebrew)
+[![English](https://img.shields.io/badge/🇺🇸_English-Click%20to%20Read-blue?style=for-the-badge&logo=readme)](#english) 
+[![עברית](https://img.shields.io/badge/🇮🇱_עברית-לחץ%20לקריאה-green?style=for-the-badge&logo=readme)](#hebrew)
+
+### Quick Navigation | ניווט מהיר
+📊 [Visualizations](#main-funnel-analysis--ניתוח-המשפך-הראשי) • 🇺🇸 [English Version](#english) • 🇮🇱 [Hebrew Version](#hebrew)
 
 </div>
 
 <div align="center">
 
 ## 📊 Main Funnel Analysis | ניתוח המשפך הראשי
+> **3.08% Overall Conversion Rate | שיעור המרה כללי של 3.08%**
 
 ![Funnel Analysis](./images/funnel_analysis.png)
 
-## 📈 Platform Performance Comparison | השוואת ביצועי פלטפורמות
+## 📈 Platform Performance Comparison | השוואת ביצועי פלטפורמות  
+> **Web Platform Shows Superior Performance | פלטפורמת האינטרנט מציגה ביצועים מעולים**
 
 ![Platform Comparison](./images/platform_comparison.png)
 
@@ -22,6 +28,12 @@
 ---
 
 # <a name="english"></a> 🇺🇸 English Version
+
+<div align="center">
+
+![English Flag](https://img.shields.io/badge/-English-blue?style=flat-square&logo=google-translate&logoColor=white) ![Data Analytics](https://img.shields.io/badge/-Data%20Analytics-informational?style=flat-square&logo=python&logoColor=white) ![Portfolio](https://img.shields.io/badge/-Portfolio%20Project-success?style=flat-square&logo=github&logoColor=white)
+
+</div>
 
 ### 📊 Project Overview
 
@@ -209,6 +221,12 @@ This project is created for portfolio demonstration purposes. Feel free to use t
 ---
 
 # <a name="hebrew"></a> 🇮🇱 Hebrew Version | גרסה עברית
+
+<div align="center">
+
+![Hebrew Flag](https://img.shields.io/badge/-עברית-green?style=flat-square&logo=google-translate&logoColor=white) ![Data Analytics](https://img.shields.io/badge/-ניתוח%20נתונים-informational?style=flat-square&logo=python&logoColor=white) ![Portfolio](https://img.shields.io/badge/-פרויקט%20תיק-success?style=flat-square&logo=github&logoColor=white)
+
+</div>
 
 ### 📊 סקירת הפרויקט
 
@@ -399,6 +417,15 @@ jupyter notebook funnel_analysis.ipynb
 
 ### 🌟 Thank you for viewing my portfolio project! | תודה על צפייה בפרויקט התיק שלי! 🌟
 
+[![GitHub stars](https://img.shields.io/github/stars/Artisa111/User-Onboarding-Funnel-Report-2025?style=social)](https://github.com/Artisa111/User-Onboarding-Funnel-Report-2025) 
+[![Data Analytics](https://img.shields.io/badge/Portfolio-Data%20Analytics-blue?style=flat-square&logo=chartdotjs)](https://github.com/Artisa111)
+
+**Seeking Data Analyst Opportunities | מחפש הזדמנויות אנליסט נתונים**
+
 [🔝 Back to Top | חזרה למעלה](#user-onboarding-funnel-analysis-2024-2025--ניתוח-משפך-הטמעת-משתמשים-2024-2025)
+
+---
+
+<sub>Created with ❤️ by Arthur | נוצר באהבה על ידי ארתור</sub>
 
 </div>
