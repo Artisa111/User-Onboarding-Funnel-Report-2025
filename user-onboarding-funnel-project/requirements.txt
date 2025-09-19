@@ -1,0 +1,34 @@
+# User Onboarding Funnel Analysis - Requirements
+# Author: Data Analyst Portfolio Project 2024-2025
+# Python Dependencies for Funnel Analysis Project
+
+# Data Processing and Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Data Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Jupyter Environment
+jupyter>=1.0.0
+ipython>=8.0.0
+notebook>=6.4.0
+
+# Development and Utilities
+python-dateutil>=2.8.0
+pytz>=2022.0
+
+# Optional: For Advanced Analysis
+scikit-learn>=1.2.0
+statsmodels>=0.14.0
+
+# Database Connectivity (Optional)
+psycopg2-binary>=2.9.0
+SQLAlchemy>=2.0.0
+
+# Export and Documentation
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0

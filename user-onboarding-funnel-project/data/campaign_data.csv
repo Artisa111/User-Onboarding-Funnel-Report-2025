@@ -1,0 +1,9 @@
+campaign_id,campaign_name,start_date,end_date,channel,budget,impressions,clicks,users_acquired,conversions,conversion_rate_percent,cost_per_acquisition,cost_per_conversion,ctr_percent,campaign_roi
+1,summer_sale_2024,2024-06-01,2024-06-30,paid_search,50000,10000000,300000,339,15,4.42,147.49,3333.33,3.0,-97.0
+2,back_to_school_2024,2024-08-01,2024-09-15,social_media,75000,9375000,234375,394,16,4.06,190.36,4687.5,2.5,-97.87
+3,halloween_special,2024-10-15,2024-10-31,email_campaign,30000,15000000,750000,68,0,0.0,441.18,30000.0,5.0,-100.0
+4,black_friday_2024,2024-11-20,2024-11-30,paid_search,120000,24000000,720000,125,3,2.4,960.0,40000.0,3.0,-99.75
+5,organic_content_q3,2024-07-01,2024-09-30,organic_search,25000,4166666,83333,1246,26,2.09,20.06,961.54,2.0,-89.6
+6,influencer_collab_fall,2024-09-01,2024-10-31,social_media,40000,5000000,125000,513,21,4.09,77.97,1904.76,2.5,-94.75
+7,retargeting_q4,2024-10-01,2024-12-31,paid_search,35000,7000000,210000,682,20,2.93,51.32,1750.0,3.0,-94.29
+8,referral_program,2024-06-01,2024-12-31,referral,20000,3333333,66666,350,12,3.43,57.14,1666.67,2.0,-94.0
