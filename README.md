@@ -1,39 +1,25 @@
-## User Onboarding Funnel Analysis 2024-2025 | ניתוח משפך הטמעת משתמשים 2024-2025
-### Data Analytics Portfolio Project | פרויקט תיק עבודות בניתוח נתונים
+# User Onboarding Funnel Analysis 2024-2025
+## Data Analytics Portfolio Project
+<!-- === START: V5 MULTI-LINGUAL NAV CAPSULE BUTTONS (WITH LOGOS) === -->
+<p align="center">
+  <a href="#-project-overview"><img src="https://img.shields.io/badge/Overview-ANALYSIS-0C4D8A?style=for-the-badge&labelColor=0C4D8A&logo=readme&logoColor=white" alt="Overview"></a>
+  <a href="#-business-problem"><img src="https://img.shields.io/badge/Problem-FOCUS-F0706A?style=for-the-badge&labelColor=0C4D8A&logo=target&logoColor=white" alt="Business Problem"></a>
+  <a href="#-my-analysis-approach"><img src="https://img.shields.io/badge/Approach-METHOD-33A6C5?style=for-the-badge&labelColor=1D669F&logo=googleanalytics&logoColor=white" alt="Analysis Approach"></a>
+  <a href="#-key-findings--insights"><img src="https://img.shields.io/badge/Insights-DATA-4EC7BF?style=for-the-badge&labelColor=1D669F&logo=googleanalytics&logoColor=white" alt="Key Findings"></a>
+  <a href="#-technical-implementation"><img src="https://img.shields.io/badge/Tech-STACK-1D669F?style=for-the-badge&labelColor=0C4D8A&logo=postgresql&logoColor=white" alt="Technical Implementation"></a>
+  <a href="#-how-to-run-this-project"><img src="https://img.shields.io/badge/Run-STEPS-33A6C5?style=for-the-badge&labelColor=1D669F&logo=geeksforgeeks&logoColor=white" alt="Run Project"></a>
+  <a href="#-business-recommendations"><img src="https://img.shields.io/badge/Recommendations-ACTION-F0706A?style=for-the-badge&labelColor=0C4D8A&logo=target&logoColor=white" alt="Recommendations"></a>
+  <a href="#hebrew-version--גרסה-בעברית"><img src="https://img.shields.io/badge/Hebrew_Version-RTL-6BA892?style=for-the-badge&labelColor=0C4D8A&logo=googletranslate&logoColor=white" alt="Hebrew Version"></a>
+</p>
 
-<div align="center">
+<p align="center">
+  <a href="./funnel_analysis.ipynb"><img src="https://img.shields.io/badge/Jupyter-NOTEBOOK-F0706A?style=for-the-badge&labelColor=424242&logo=jupyter&logoColor=white" alt="Notebook"></a>
+  <a href="./visualization.py"><img src="https://img.shields.io/badge/Visualization-SCRIPT-33A6C5?style=for-the-badge&labelColor=1D669F&logo=python&logoColor=white" alt="Visualization Script"></a>
+  <a href="./sql/"><img src="https://img.shields.io/badge/SQL-QUERIES-0C4D8A?style=for-the-badge&labelColor=1D669F&logo=postgresql&logoColor=white" alt="SQL Queries"></a>
+  <a href="./data/"><img src="https://img.shields.io/badge/Data-FILES-1D669F?style=for-the-badge&labelColor=424242&logo=databricks&logoColor=white" alt="Data Files"></a>
+  <a href="#-sample-insights-dashboard"><img src="https://img.shields.io/badge/Dashboard-INSIGHTS-4EC7BF?style=for-the-badge&labelColor=1D669F&logo=googleanalytics&logoColor=white" alt="Sample Insights Dashboard"></a>
+</p>
 
-[![English](https://img.shields.io/badge/🇺🇸_English-Click%20to%20Read-blue?style=for-the-badge&logo=readme)](#english) 
-[![עברית](https://img.shields.io/badge/🇮🇱_עברית-לחץ%20לקריאה-green?style=for-the-badge&logo=readme)](#hebrew)
-
-### Quick Navigation | ניווט מהיר
-📊 [Visualizations](#main-funnel-analysis--ניתוח-המשפך-הראשי) • 🇺🇸 [English Version](#english) • 🇮🇱 [Hebrew Version](#hebrew)
-
-</div>
-
-<div align="center">
-
-## 📊 Main Funnel Analysis | ניתוח המשפך הראשי
-> **3.08% Overall Conversion Rate | שיעור המרה כללי של 3.08%**
-
-![Funnel Analysis](./images/funnel_analysis.png)
-
-## 📈 Platform Performance Comparison | השוואת ביצועי פלטפורמות  
-> **Web Platform Shows Superior Performance | פלטפורמת האינטרנט מציגה ביצועים מעולים**
-
-![Platform Comparison](./images/platform_comparison.png)
-
-</div>
-
----
-
-# <a name="english"></a> 🇺🇸 English Version
-
-<div align="center">
-
-![English Flag](https://img.shields.io/badge/-English-blue?style=flat-square&logo=google-translate&logoColor=white) ![Data Analytics](https://img.shields.io/badge/-Data%20Analytics-informational?style=flat-square&logo=python&logoColor=white) ![Portfolio](https://img.shields.io/badge/-Portfolio%20Project-success?style=flat-square&logo=github&logoColor=white)
-
-</div>
 
 ### 📊 Project Overview
 
@@ -108,13 +94,15 @@ I generated realistic datasets simulating:
 - **Campaign Data**: 8 marketing campaigns with budget and performance metrics
 - **Geographic Data**: 8 countries with varying conversion patterns
 
-### 🎨 Visualizations Created
+### 🎨 Visualizations
 
-1. **Main Funnel Chart**: Classic funnel showing user drop-off
-2. **Platform Comparison**: Performance across web, mobile, apps
-3. **Cohort Heatmap**: Weekly retention analysis  
-4. **Time Trends**: Seasonal patterns and growth trends
-5. **Campaign ROI**: Marketing performance dashboard
+#### 1. Main Funnel Chart
+![Funnel Analysis](./images/funnel_analysis.png) 
+*Figure 1. User drop-off across funnel stages.*
+
+#### 2. Platform Comparison
+![Platform Comparison](./images/platform_comparison.png)  
+*Figure 2. Conversion performance across Web, Mobile Web, iOS, Android.*
 
 ### 💡 Business Recommendations
 
@@ -144,14 +132,17 @@ user-onboarding-funnel-project/
 │   ├── funnel_analysis.sql      # Core funnel queries
 │   ├── conversion_rates.sql     # Conversion calculations
 │   └── cohort_analysis.sql      # Retention analysis
-├── data_preprocessing.py        # Data cleaning pipeline
-├── visualization.py             # Chart generation
-├── funnel_analysis.ipynb        # Main analysis notebook
-├── images/
-│   ├── funnel_analysis.png      # Main funnel chart
-│   ├── platform_comparison.png  # Platform performance
-│   └── [additional charts]
-└── README.md                    # This documentation
+├── python/
+│   ├── data_preprocessing.py    # Data cleaning pipeline
+│   ├── visualization.py         # Chart generation
+│   └── funnel_analysis.ipynb    # Main analysis notebook
+├── visualizations/
+│   ├── funnel_analysis.png
+│   ├── platform_comparison.png
+│   ├── cohort_retention_heatmap.png
+│   ├── time_trends_analysis.png
+│   ├── campaign_performance.png
+└── README.md
 ```
 
 ### 🚀 How to Run This Project
@@ -175,14 +166,9 @@ pip install -r requirements.txt
 
 4. **Execute Python analysis**:
 ```bash
-# Run data preprocessing
-python data_preprocessing.py
-
-# Generate visualizations  
-python visualization.py
-
-# Or use the Jupyter notebook for interactive analysis
-jupyter notebook funnel_analysis.ipynb
+python python/data_preprocessing.py
+python python/visualization.py
+jupyter notebook python/funnel_analysis.ipynb
 ```
 
 ### 📊 Sample Insights Dashboard
@@ -203,30 +189,29 @@ Through this project, I showcased:
 - **Business Analysis**: Converting data insights into recommendations
 - **Project Management**: End-to-end analytics project delivery
 
-### 📞 Contact Information
+###  Contact Information
+**Artur** - Data Analyst  
 
-**Arthur** - Data Analyst  
-📧 Email: [your-email@domain.com]  
-💼 LinkedIn: [your-linkedin-profile]  
-🐱 GitHub: [your-github-profile]
+<p align="center">
+  <a href="mailto:artursim779@gmail.com"><img src="https://img.shields.io/badge/Email-ARTUR-6BA892?style=for-the-badge&labelColor=424242&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/artur-pais-848491352" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-ARTUR__PAIS-1D669F?style=for-the-badge&labelColor=424242&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://github.com/Artisa111" target="_blank"><img src="https://img.shields.io/badge/GitHub-ARTISA111-000000?style=for-the-badge&labelColor=424242&logo=github&logoColor=white" alt="GitHub"></a>
+</p>
 
 ---
 
 *This project demonstrates my ability to conduct comprehensive funnel analysis, generate actionable business insights, and communicate findings effectively to stakeholders. I'm actively seeking data analyst opportunities where I can apply these skills to drive business growth.*
-
 ### 📄 License
 
 This project is created for portfolio demonstration purposes. Feel free to use the methodologies and adapt for your own analysis needs.
 
 ---
 
-# <a name="hebrew"></a> 🇮🇱 Hebrew Version | גרסה עברית
+## Hebrew Version / גרסה בעברית
+<div dir="rtl" align="right">
 
-<div align="center">
-
-![Hebrew Flag](https://img.shields.io/badge/-עברית-green?style=flat-square&logo=google-translate&logoColor=white) ![Data Analytics](https://img.shields.io/badge/-ניתוח%20נתונים-informational?style=flat-square&logo=python&logoColor=white) ![Portfolio](https://img.shields.io/badge/-פרויקט%20תיק-success?style=flat-square&logo=github&logoColor=white)
-
-</div>
+# ניתוח משפך הטמעת משתמשים <span dir="ltr">2024–2025</span>
+## פרויקט תיק עבודות בניתוח נתונים
 
 ### 📊 סקירת הפרויקט
 
@@ -235,6 +220,7 @@ This project is created for portfolio demonstration purposes. Feel free to use t
 ### 🎯 הבעיה העסקית
 
 כאנליסט נתונים, זיהיתי את הצורך הקריטי להבין דפוסי נטישה של משתמשים במשפך ההטמעה. האתגרים העיקריים שטיפלתי בהם היו:
+
 
 - **נטישה גבוהה של משתמשים**: הבנת המקום בו משתמשים יוצאים מהמשפך
 - **שונות בביצועי פלטפורמות**: השוואת שיעורי המרה בין אתר, מובייל ואפליקציות
@@ -247,32 +233,30 @@ This project is created for portfolio demonstration purposes. Feel free to use t
 השתמשתי בגישה אנליטית רב-פנית המשלבת:
 
 1. **ניתוח SQL**: שאילתות מורכבות למדדי משפך וניתוח קוהורט
-2. **עיבוד נתונים בPython**: ניקוי נתונים מתקדם והנדסת תכונות
+2. **עיבוד נתונים ב<span dir="ltr">Python</span>**: ניקוי נתונים מתקדם והנדסת תכונות
 3. **ניתוח סטטיסטי**: חישוב שיעורי המרה וניתוח טרנדים
 4. **הדמיה של נתונים**: תרשימים ומחוונים מקצועיים
 5. **מודיעין עסקי**: המלצות מעשיות על בסיס הממצאים
 
 ### 📈 ממצאים ותובנות מרכזיות
 
-דרך הניתוח שלי, גיליתי מספר תובנות קריטיות:
-
 #### מדדי ביצועי המשפך:
-- **שיעור המרה כללי**: 3.08% (מעמוד נחיתה לרכישה)
-- **נקודת הנטישה הגדולה ביותר**: הרשמה לאימות אימייל (55% נטישה)
-- **הפלטפורמה הכי טובה להמרה**: פלטפורמת אינטרנט (3.3% המרה)
-- **החודש עם הכי הרבה נפח**: נובמבר 2024 (השפעת שישי השחור)
+- **שיעור המרה כללי**: <span dir="ltr">3.08%</span> (מעמוד נחיתה לרכישה)
+- **נקודת הנטישה הגדולה ביותר**: הרשמה לאימות אימייל (<span dir="ltr">55%</span> נטישה)
+- **הפלטפורמה הכי טובה להמרה**: פלטפורמת אינטרנט (<span dir="ltr">3.3%</span> המרה)
+- **החודש עם הכי הרבה נפח**: נובמבר <span dir="ltr">2024</span> (השפעת שישי השחור)
 
 #### ניתוח פלטפורמות:
 - **פלטפורמת אינטרנט**: שיעור המרה הגבוה ביותר אך שיעור הרשמה נמוך יותר
 - **אינטרנט מובייל**: הכי טוב למעורבות ראשונית, המרה בינונית
-- **אפליקציית iOS**: סגמנט משתמשים פרימיום עם ערך חיים גבוה
-- **אפליקציית Android**: סגמנט צומח עם פוטנציאל אופטימיזציה
+- **אפליקציית <span dir="ltr">iOS</span>**: סגמנט משתמשים פרימיום עם ערך חיים גבוה
+- **אפליקציית <span dir="ltr">Android</span>**: סגמנט צומח עם פוטנציאל אופטימיזציה
 
 #### ביצועי קמפיינים:
-- **קמפיין עם ROI הכי טוב**: תוכנית הפניות (ROI חיובי)
-- **הנפח הגבוה ביותר**: קמפיין שישי השחור 2024
+- **קמפיין עם <span dir="ltr">ROI</span> הכי טוב**: תוכנית הפניות (<span dir="ltr">ROI</span> חיובי)
+- **הנפח הגבוה ביותר**: קמפיין שישי השחור <span dir="ltr">2024</span>
 - **הערוץ הכי יעיל**: קמפיינים באימייל (עלות נמוכה ביותר לרכישה)
-- **זוכים גיאוגרפיים**: שווקי ארצות הברית ובריטניה מציגים ביצועים חזקים ביותר
+- **שווקי ביצועים מובילים**: ארצות הברית ובריטניה
 
 ### 🛠️ יישום טכני
 
@@ -281,137 +265,133 @@ This project is created for portfolio demonstration purposes. Feel free to use t
 נתונים גולמיים → ניתוח SQL → עיבוד Python → הדמיה → תובנות עסקיות
 ```
 
-#### טכנולוגיות בהן השתמשתי:
-- **SQL**: PostgreSQL לשאילתות משפך מורכבות
+#### טכנולוגיות:
+- **SQL**: <span dir="ltr">PostgreSQL</span> לשאילתות משפך מורכבות
 - **Python**: pandas, NumPy למניפולציה של נתונים
-- **הדמיה**: matplotlib, seaborn, Plotly לתרשימים
+- **הדמיה**: matplotlib, seaborn, Plotly
 - **אנליטיקס**: ניתוח סטטיסטי ומחקרי קוהורט
 
-#### שאילתות SQL מרכזיות שפיתחתי:
-1. **ניתוח משפך**: מעקב התקדמות משתמשים שלב אחר שלב
-2. **שיעורי המרה**: מדדי ביצועים לפי פלטפורמה וגיאוגרפיה
-3. **ניתוח קוהורט**: דפוסי שמירה ומעורבות משתמשים
+#### שאילתות SQL מרכזיות:
+1. **ניתוח משפך**: מעקב התקדמות משתמשים
+2. **שיעורי המרה**: פלטפורמה וגיאוגרפיה
+3. **ניתוח קוהורט**: דפוסי שמירה
 4. **ייחוס קמפיינים**: חישוב ROI שיווקי
 
 ### 📊 מקורות נתונים ומתודולוגיה
 
 יצרתי מערכי נתונים ריאליסטיים המדמים:
-- **אירועי משתמשים**: 20,752 אירועים מ-8,000 משתמשים על פני 6 חודשים
+- **אירועי משתמשים**: <span dir="ltr">20,752</span> אירועים מ-<span dir="ltr">8,000</span> משתמשים על פני <span dir="ltr">6</span> חודשים
 - **דמוגרפיה**: גיל, מגדר, הכנסה, העדפות מכשיר
-- **נתוני קמפיינים**: 8 קמפיינים שיווקיים עם תקציב ומדדי ביצועים
-- **נתונים גיאוגרפיים**: 8 מדינות עם דפוסי המרה משתנים
+- **נתוני קמפיינים**: <span dir="ltr">8</span> קמפיינים עם תקציב ומדדים
+- **נתונים גיאוגרפיים**: <span dir="ltr">8</span> מדינות עם דפוסי המרה משתנים
 
-### 🎨 הדמיות שיצרתי
+### 🎨 ויזואליזציה
 
-1. **תרשים משפך ראשי**: משפך קלאסי המציג נטישת משתמשים
-2. **השוואת פלטפורמות**: ביצועים בין אתר, מובייל, אפליקציות
-3. **מפת חום של קוהורט**: ניתוח שמירה שבועי
-4. **טרנדים זמניים**: דפוסים עונתיים וטרנדי צמיחה
-5. **ROI קמפיינים**: מחוון ביצועים שיווקיים
+#### 1. משפך ראשי
+![התנהגות משתמשים במשפך](./images/funnel_analysis.png) 
+*איור 1. נטישת משתמשים בכל שלבי ההטמעה.*
+
+#### 2. השוואת פלטפורמות
+![השוואת ביצועי פלטפורמות](./images/platform_comparison.png)   
+*איור 2. שיעורי המרה לפי פלטפורמה (<span dir="ltr">Web</span>, <span dir="ltr">Mobile Web</span>, <span dir="ltr">iOS</span>, <span dir="ltr">Android</span>).*
 
 ### 💡 המלצות עסקיות
 
 על בסיס הניתוח שלי, אני ממליץ:
 
 #### פעולות מיידיות:
-1. **אופטימיזציה של תהליך אימות אימייל**: הפחתת שיעור נטישה של 55%
-2. **השקעה בפלטפורמת אינטרנט**: ניצול שיעור ההמרה הגבוה ביותר
-3. **הרחבת תוכנית הפניות**: הקמפיין היחיד עם ROI חיובי
-4. **התמקדות בשווקי ארה"ב/בריטניה**: הגיאוגרפיות עם הביצועים הגבוהים ביותר
+1. **אופטימיזציה של תהליך אימות אימייל**: הפחתת נטישה של <span dir="ltr">55%</span>
+2. **השקעה בפלטפורמת אינטרנט**: מינוף שיעור המרה גבוה
+3. **הרחבת תוכנית הפניות**: הקמפיין היחיד עם <span dir="ltr">ROI</span> חיובי
+4. **התמקדות בארה"ב/בריטניה**: שווקי ביצועים מובילים
 
 #### אסטרטגיה לטווח ארוך:
-1. **פיתוח אפליקציות מובייל**: שיפור שיעורי המרה של iOS/Android
-2. **תכנון קמפיינים עונתיים**: מנפוף דפוסי הביצועים של נובמבר
-3. **שיווק מבוסס קוהורט**: התמקדות בסגמנטי משתמשים עם שמירה גבוהה
+1. **פיתוח אפליקציות מובייל**: שיפור המרות <span dir="ltr">iOS</span>/<span dir="ltr">Android</span>
+2. **תכנון קמפיינים עונתיים**: מינוף דפוסי נובמבר
+3. **שיווק מבוסס קוהורט**: מיקוד בסגמנטים עם שמירה גבוהה
 4. **התרחבות גיאוגרפית**: שכפול הצלחה בשווקים דומים
 
 ### 📁 מבנה הפרויקט
-
 ```
 user-onboarding-funnel-project/
 ├── data/
-│   ├── user_events.csv          # נתוני אינטראקציה גולמיים של משתמשים
-│   ├── user_demographics.csv    # מידע פרופיל משתמש
-│   └── campaign_data.csv        # מדדי קמפיין שיווקי
+│   ├── user_events.csv
+│   ├── user_demographics.csv
+│   └── campaign_data.csv
 ├── sql/
-│   ├── funnel_analysis.sql      # שאילתות משפך מרכזיות
-│   ├── conversion_rates.sql     # חישובי המרה
-│   └── cohort_analysis.sql      # ניתוח שמירה
-├── data_preprocessing.py        # צינור ניקוי נתונים
-├── visualization.py             # יצירת תרשימים
-├── funnel_analysis.ipynb        # מחברת ניתוח ראשי
-├── images/
-│   ├── funnel_analysis.png      # תרשים משפך ראשי
-│   ├── platform_comparison.png  # ביצועי פלטפורמה
-│   └── [תרשימים נוספים]
-└── README.md                    # התיעוד הזה
+│   ├── funnel_analysis.sql
+│   ├── conversion_rates.sql
+│   └── cohort_analysis.sql
+├── python/
+│   ├── data_preprocessing.py
+│   ├── visualization.py
+│   └── funnel_analysis.ipynb
+├── visualizations/
+│   ├── funnel_analysis.png
+│   ├── platform_comparison.png
+│   ├── cohort_retention_heatmap.png
+│   ├── time_trends_analysis.png
+│   ├── campaign_performance.png
+└── README.md
 ```
 
 ### 🚀 איך להריץ את הפרויקט הזה
-
 1. **שיבוט המאגר**:
 ```bash
 git clone <repository-url>
 cd user-onboarding-funnel-project
 ```
-
 2. **התקנת תלויות**:
 ```bash
 pip install -r requirements.txt
 ```
-
 3. **הרצת ניתוח SQL**:
 ```sql
 -- הרץ שאילתות בסביבת SQL המועדפת עליך
 -- התחל עם funnel_analysis.sql למדדים מרכזיים
 ```
-
 4. **הרצת ניתוח Python**:
 ```bash
-# הרץ עיבוד מוקדם של נתונים
-python data_preprocessing.py
-
-# יצירת הדמיות
-python visualization.py
-
-# או השתמש במחברת Jupyter לניתוח אינטראקטיבי
-jupyter notebook funnel_analysis.ipynb
+python python/data_preprocessing.py
+python python/visualization.py
+jupyter notebook python/funnel_analysis.ipynb
 ```
 
 ### 📊 מחוון תובנות לדוגמה
-
 הניתוח מגלה שזיהיתי בהצלחה:
-- **שיעור המרה כללי של 3.08%** עם הזדמנויות אופטימיזציה ברורות
-- **55% נטישה באימות אימייל** כצוואר בקבוק עיקרי
-- **עליונות פלטפורמת אינטרנט** לאופטימיזציית המרה
+- **שיעור המרה כללי של <span dir="ltr">3.08%</span>** עם הזדמנויות אופטימיזציה
+- **<span dir="ltr">55%</span> נטישה באימות אימייל** כצוואר בקבוק
+- **עליונות פלטפורמת אינטרנט** בהמרה
 - **ריכוז גיאוגרפי** בשווקים דוברי אנגלית
 - **דפוסים עונתיים** עם שיאים בנובמבר
 
 ### 🔧 כישורים טכניים שהדגמתי
-
-דרך הפרויקט הזה, הצגתי:
 - **SQL מתקדם**: פונקציות חלון מורכבות, CTEs, ניתוח קוהורט
-- **מיומנות Python**: מניפולציה של נתונים, ניתוח סטטיסטי
+- **מיומנות <span dir="ltr">Python</span>**: מניפולציה וניתוח סטטיסטי
 - **הדמיית נתונים**: תרשימים מקצועיים וסיפור
-- **ניתוח עסקי**: המרת תובנות נתונים להמלצות
-- **ניהול פרויקטים**: מסירת פרויקט אנליטיקס מקצה לקצה
+- **ניתוח עסקי**: הפיכת נתונים לתובנות
+- **ניהול פרויקטים**: מסירה מקצה לקצה
 
-### 📞 פרטי יצירת קשר
-
-**ארתור** - אנליסט נתונים  
-📧 אימייל: [your-email@domain.com]  
-💼 LinkedIn: [your-linkedin-profile]  
-🐱 GitHub: [your-github-profile]
+###  פרטי יצירת קשר
+**ארתור** - דאטה אנליסט   
+<p align="center" dir="rtl">
+  <a href="mailto:artursim779@gmail.com"><img src="https://img.shields.io/badge/%D7%90%D7%99%D7%9E%D7%99%D7%99%D7%9C-ARTUR-6BA892?style=for-the-badge&labelColor=424242&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/artur-pais-848491352" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%D7%A4%D7%A8%D7%95%D7%A4%D7%99%D7%9C-1D669F?style=for-the-badge&labelColor=424242&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://github.com/Artisa111" target="_blank"><img src="https://img.shields.io/badge/GitHub-ARTISA111-000000?style=for-the-badge&labelColor=424242&logo=github&logoColor=white" alt="GitHub"></a>
+</p>
 
 ---
 
 *הפרויקט הזה מדגים את היכולת שלי לבצע ניתוח משפך מקיף, ליצור תובנות עסקיות מעשיות ולתקשר ממצאים ביעילות לבעלי עניין. אני מחפש בפעילות הזדמנויות אנליסט נתונים שבהן אוכל ליישם את הכישורים האלה כדי להניע צמיחה עסקית.*
-
 ### 📄 רישיון
 
-הפרויקט הזה נוצר למטרות הדגמת תיק עבודות. אל תהסס להשתמש במתודולוגיות ולהתאים לצרכי הניתוח שלך.
+הפרויקט הזה נוצר למטרות הדגמת תיק עבודות. אפשר להשתמש במתודולוגיות ולהתאים לצרכים שלך.
 
----
+
+<div align="center">
+</div>
+
+</div>
 
 <div align="center">
 
@@ -426,6 +406,8 @@ jupyter notebook funnel_analysis.ipynb
 
 ---
 
-<sub>Created with ❤️ by Arthur | נוצר באהבה על ידי ארתור</sub>
+<div align="center">
+
+**💜 נוצר באהבה לאנליטיקת נתונים**
 
 </div>
